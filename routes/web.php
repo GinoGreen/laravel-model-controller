@@ -19,4 +19,4 @@ Route::get('/chi-siamo', 'PageController@about')->name('about');
 
 Route::get('/contatti', 'PageController@contacts')->name('contacts');
 
-Route::get('/film', 'MovieController')->name('movies');
+Route::get('/film', 'MovieController@index')->name('movies');
